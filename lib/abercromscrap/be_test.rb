@@ -1,2 +1,2 @@
 require 'abercromscrap'
-Abercromscrap::Scrap
+Abercromscrap::Scrap.scrap
