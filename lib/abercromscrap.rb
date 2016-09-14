@@ -107,6 +107,7 @@ module Abercromscrap
 				           	@item["product_date"]=@days
 				          end
 				          Safari.create(@item)
+				          p"----#{@item}"
 				        rescue => error
 				         @invalid=Invalidinfo.create(:url=>url7,:msg=>error.message)
 				        end
