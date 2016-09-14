@@ -1,0 +1,2 @@
+require 'abercromscrap'
+Abercromscrap::Scrap
