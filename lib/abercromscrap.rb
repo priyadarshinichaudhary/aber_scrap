@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'open-uri'
 
 module Abercromscrap
-  # class Scrap
+  class Scrap
 	 	def self.scrap
 	    url = "https://www.abercrombiekent.com/"
 	    doc = Nokogiri::HTML(open(url))
@@ -123,5 +123,5 @@ module Abercromscrap
 				# end
 	  	end
 	  end
-  # end
+  end
 end
