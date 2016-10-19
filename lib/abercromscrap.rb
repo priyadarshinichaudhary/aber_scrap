@@ -3,7 +3,7 @@ require 'bundler/setup'
 require 'nokogiri'
 require 'open-uri'
 
-module Abercromscrap
+#module Abercromscrap
   class Scrap
 	 	def self.scrap
 	    url = "https://www.abercrombiekent.com/"
@@ -124,4 +124,4 @@ module Abercromscrap
 	  	end
 	  end
   end
-end
+#end
