@@ -106,7 +106,7 @@ module Abercromscrap
 					           	@days<< date
 					           	@item["product_date"]=@days
 					          end
-					          # Safari.create(@item)
+					          Safari.create(@item)
 					          p"----#{@item}"
 					          # p"----#{self}"
 					        # rescue => error
