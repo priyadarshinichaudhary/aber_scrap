@@ -3,9 +3,9 @@ require 'bundler/setup'
 require 'nokogiri'
 require 'open-uri'
 
-#module Abercromscrap
+module Abercromscrap
   class Scrap
-	 	def self.scrap
+	 	def self.process
 	    url = "https://www.abercrombiekent.com/"
 	    doc = Nokogiri::HTML(open(url))
 	  	doc.css('.destinations a').each do |e|
@@ -124,4 +124,4 @@ require 'open-uri'
 	  	end
 	  end
   end
-#end
+end

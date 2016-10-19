@@ -1,7 +1,2 @@
-#Abercromscrap.Scrap.scrap
-
-module Abercromscrap
-	def self_create(url)
-
-	end
-end
+require 'abercromscrap'
+Abercromscrap::Scrap.scrap?
