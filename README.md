@@ -10,6 +10,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'abercromscrap'
+gem 'abercromscrap_generator-0.1.gem'
 ```
 
 And then execute:
