@@ -1,4 +1,4 @@
-require 'rails/generators/migration'
+require 'rails/generators/base'
 
 module Abercromscrap
   module Generators
